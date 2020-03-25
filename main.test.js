@@ -307,6 +307,7 @@ describe('containsLowercase', () => {
   })
 });
 
+
 describe('removeTrolls', () => {
   it(`given an array of strings representing user posts, it returns an array of those posts that have at least one lower case letter`, () => {
     const posts1 = [
